@@ -1,8 +1,5 @@
 import cv2 as cv
 
-img = cv.imread("D:\2023\tyler.jpg")
-cv.imshow('Man', img)
-
 
 def rescaleFrame(frame, scale=0.75):
     width = int(frame.shape[1] * scale)
